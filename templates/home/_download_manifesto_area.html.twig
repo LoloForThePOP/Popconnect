@@ -1,7 +1,21 @@
 
 {% macro item_container(fileExtension, caption) %}
 
-    <a href="{{asset ('manifesto/project-of-projects-manifesto.'~ fileExtension, 'static_files')}}" target="_blank">
+    {# Searching for an appropriate translation of the manifesto #}
+
+    {% set manifestoAvailableTranslations = ['en','fr'] %}
+
+    {% set directory = 'en' %}
+
+    {% set userLocale = app.request.locale %}
+
+    {% if userLocale in manifestoAvailableTranslations %}
+
+        {% set directory = userLocale %}
+
+    {% endif %}
+
+    <a href="{{asset ('manifesto/'~ userLocale ~'/project-of-projects-manifesto.'~ fileExtension, 'static_files')}}" target="_blank">
 
         <div class="item-container">
 
@@ -23,18 +37,22 @@
 
 {% endmacro %}
 
+{{ 'Presori'|trans }}
+
 <div class="download-manifesto-area">
 
     <p class="lead download-manifesto-tagline">
-        For more information, <b>consult the Project of Projects manifesto</b>.
+        
+        {{ 'fck' |trans }}For more information, <b>consult the Project of Projects manifesto</b>.
         
         <br>Choose your prefered format :
+
     </p>
 
     <div class="download-items-container">
 
-        {{ _self.item_container('pdf', 'PDF Version') }}
-        {{ _self.item_container('epub', 'Ebook Version (EPUB)') }}
+        {{ _self.item_container('pdf', 'PDF Version' |trans ) }}
+        {{ _self.item_container('epub', 'Ebook Version (EPUB)' |trans ) }}
 
     </div>
 

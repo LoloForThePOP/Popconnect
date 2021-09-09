@@ -17,6 +17,82 @@
         <source>Present Projects at Large Scale</source>
         <target>Présenter les projets à grande échelle</target>
       </trans-unit>
+      <trans-unit id=".cXS6UE" resname="Powered by">
+        <source>Powered by</source>
+        <target>Créé avec</target>
+      </trans-unit>
+      <trans-unit id="mLZwY8_" resname="Contact Us">
+        <source>Contact Us</source>
+        <target>Contactez-nous</target>
+      </trans-unit>
+      <trans-unit id="KmskrSh" resname="Credits">
+        <source>Credits</source>
+        <target>Crédits</target>
+      </trans-unit>
+      <trans-unit id="fBjWNGf" resname="lool">
+        <source>lool</source>
+        <target>__lool</target>
+      </trans-unit>
+      <trans-unit id="nE0JwW_" resname="Pres">
+        <source>Pres</source>
+        <target>__Pres</target>
+      </trans-unit>
+      <trans-unit id="MTTBS9j" resname="Presor">
+        <source>Presor</source>
+        <target>__Presor</target>
+      </trans-unit>
+      <trans-unit id="A3tDEJL" resname="Presorol">
+        <source>Presorol</source>
+        <target>__Presorol</target>
+      </trans-unit>
+      <trans-unit id="ZhPG3FR" resname="Presori">
+        <source>Presori</source>
+        <target>__Presori</target>
+      </trans-unit>
+      <trans-unit id="xxhnLBd" resname="We need your help. Join Us.">
+        <source>We need your help. Join Us.</source>
+        <target>__We need your help. Join Us.</target>
+      </trans-unit>
+      <trans-unit id="AczPAMh" resname="fck">
+        <source>fck</source>
+        <target>__fck</target>
+      </trans-unit>
+      <trans-unit id="UqVsc8Z" resname="PDF Version">
+        <source>PDF Version</source>
+        <target>Version PDF</target>
+      </trans-unit>
+      <trans-unit id="Yux9Rc6" resname="Ebook Version (EPUB)">
+        <source>Ebook Version (EPUB)</source>
+        <target>Version E-Book (EPUB)</target>
+      </trans-unit>
+      <trans-unit id="K9KqqQa" resname="Your Email Address">
+        <source>Your Email Address</source>
+        <target>Votre Adresse email</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>E-mail</target>
+      </trans-unit>
+      <trans-unit id="tb5dTqr" resname="Your Message">
+        <source>Your Message</source>
+        <target>Votre message</target>
+      </trans-unit>
+      <trans-unit id="8xqUdc4" resname="Type Here">
+        <source>Type Here</source>
+        <target>Écrire ici</target>
+      </trans-unit>
+      <trans-unit id="psbY16e" resname="If you have any question or if you'd like to get in touch, feel free to use this contact form.">
+        <source>If you have any question or if you'd like to get in touch, feel free to use this contact form.</source>
+        <target>Si vous avez des questions ou si vous voulez entrer en contact,  utilisez le formulaire ci-dessous.</target>
+      </trans-unit>
+      <trans-unit id="9vRoj.I" resname="Send">
+        <source>Send</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="GXZu1sy" resname="Cancel">
+        <source>Cancel</source>
+        <target>Annuler</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

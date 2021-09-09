@@ -16,7 +16,7 @@ class ContactWebsiteType extends AbstractType
             'authorEmail',
             EmailType::class,
             [
-                'label' => 'Votre adresse email',
+                'label' => 'Your Email Address',
 
                 'attr' => [
                     
@@ -32,13 +32,13 @@ class ContactWebsiteType extends AbstractType
             TextareaType::class,
             [
 
-                'label' => 'Contenu de votre message',
+                'label' => 'Your Message',
 
                 'required'   => true,
 
                 'attr' => [
 
-                    'placeholder'    => "Écrire ici",
+                    'placeholder'    => "Type Here",
                 ],
             ]
             

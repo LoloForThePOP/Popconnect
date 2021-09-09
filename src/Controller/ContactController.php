@@ -11,12 +11,24 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class ContactController extends AbstractController
 {
 
+    
+    /**
+     * 
+     * Default route no locale
+     * 
+     * @Route("/contat-us/")
+     */
+    public function indexNoLocale(): Response
+    {
+        return $this->redirectToRoute('contact_website', ['_locale' => 'en']);
+    }
+
 
      /**
       * 
      * Allow visitors to access contact website page and type messages
      * 
-     * @Route("/contact-us/", name="contact_website")
+     * @Route("/{_locale<%app.supported_locales%>}/contact-us/", name="contact_website")
      */
     public function contactWebsite(Request $request): Response
     {

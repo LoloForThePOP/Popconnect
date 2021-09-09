@@ -2,31 +2,33 @@
 
 {% form_theme form 'bootstrap_5_layout.html.twig' %}
 
-{% block title %}Contact Us{% endblock %}
+{% block title %}{{'Contact Us'|trans }}{% endblock %}
 
 {% block body %}
 
     <div class="container px-0">
 
-        <h3 class="text-success fw-bold mb-4">Contact Us</h3>
+        <h3 class="text-success fw-bold mb-4">{{ 'Contact Us' |trans }}</h3>
 
         <p class="h5 mb-4">
-            Pour toute question, problème, ou remarque, utilisez le formulaire ci-dessous. Nous vous recontacterons dans les plus brefs délais.
+
+            {{ "If you have any question or if you'd like to get in touch, feel free to use this contact form."|trans }}
+
         </p>
 
         <div class="contact-form row mb-4 ">
 
-            {{form_start(form)}}
+            {{ form_start(form) }}
 
             <div class="mb-4">
 
-                {{form_row(form.authorEmail)}}
+                {{ form_row(form.authorEmail) }}
 
             </div>
 
             <div class="">
 
-                {{form_row(form.content)}}
+                {{ form_row(form.content) }}
 
             </div>
 
@@ -37,12 +39,12 @@
         <div class="">
 
             <button type="submit" value="" class="btn btn-success fw-bold me-2 mb-2">
-                <span class="">Send</span> 
+                <span class=""> {{ 'Send' | trans }} </span> 
             </button>
 
             <a href="{{path('homepage')}}">
                 <button type="button" value="" class="btn btn-info fw-bold mb-2">
-                    <span class="">Cancel</span> 
+                    <span class="">{{ 'Cancel' | trans }}</span> 
                 </button>
             </a>
             
