@@ -1,19 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link   rel="icon" 
+                type="image/png" 
+                href="{{ asset('misc/favicon16.png', 'static_images')}}">
+
+        <title>{% block title %}Welcome to the Project of Projects website{% endblock %}</title>
+
         {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
+
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="/css/app.css" rel="stylesheet">
+        
         {% block stylesheets %}
             {#{{ encore_entry_link_tags('app') }}#}
         {% endblock %}
 
+        <script src="/js/bootstrap.js"></script>
+
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
+
     </head>
+
     <body>
-        {% block body %}{% endblock %}
+
+        {# Website Header #}
+
+        {% include "_partials/header_navbar.html.twig" %}
+
+
+        {# Website Main Content #}
+
+        <div class="container-fluid page-content-container bg-light"> 
+
+            <div class="row" style="min-height:500px;">
+                
+                <!-- Main Body Content -->
+    
+                <div class="col">
+
+                    {% block body %}{% endblock %}
+    
+                </div>
+
+            </div>
+    
+        </div>  
+
+        {# End of Website Main Content #}
+
+
+
+
+        {# Website Footer #}
+
+        {% include "_partials/footer.html.twig" %}
+
     </body>
+
 </html>

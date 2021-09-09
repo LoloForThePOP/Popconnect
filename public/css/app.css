@@ -1,0 +1,46 @@
+
+/* Overide Bootstrap */
+
+
+@media screen and (min-width: 1200px){
+
+    .container {
+        max-width: 942px;
+    }
+
+}
+
+/* Page Content Container */
+
+.page-content-container{
+   padding-top: 40px;
+   padding-bottom: 50px;
+} 
+
+.site-title {
+	font-size: 1.513rem;
+	color: #16181a;
+	font-weight: 400;
+	line-height: 1.5;
+    margin-bottom: 0;
+}
+
+
+.site-description {
+	font-size: 1.27rem;
+    color: #51585f;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+     
+
+}
+
+
+@media screen and (max-width: 580px) {
+     
+
+
+}

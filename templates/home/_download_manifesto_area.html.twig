@@ -1,0 +1,74 @@
+
+{% macro item_container(fileExtension, caption) %}
+
+    <a href="{{asset ('manifesto/project-of-projects-manifesto.'~ fileExtension, 'static_files')}}" target="_blank">
+
+        <div class="item-container">
+
+            <div class="icon-container">
+
+                <img src="{{asset ('icons/files/'~ fileExtension ~'.png', 'static_images')}}" alt="{{fileExtension}} icon" height="100" width="100">
+
+            </div>
+
+            <div class="caption-container text-center">
+
+                {{caption}}
+
+            </div>
+
+        </div>
+
+    </a>
+
+{% endmacro %}
+
+<div class="download-manifesto-area">
+
+    <p class="lead download-manifesto-tagline">
+        For more information, <b>consult the Project of Projects manifesto</b>.
+        
+        <br>Choose your prefered format :
+    </p>
+
+    <div class="download-items-container">
+
+        {{ _self.item_container('pdf', 'PDF Version') }}
+        {{ _self.item_container('epub', 'Ebook Version (EPUB)') }}
+
+    </div>
+
+</div>
+
+<style>
+
+    .download-manifesto-area{
+        border: 1px solid rgb(226, 194, 253);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .download-manifesto-tagline{
+
+        margin-bottom: 32px;
+    }
+
+    .download-items-container{
+        display: flex;
+    }
+
+    .item-container{
+        display: inline-block;
+        width: 110px;
+        font-weight: bold;
+        color: black;
+        margin-right: 20px;
+    }
+    .icon-container{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+</style>
