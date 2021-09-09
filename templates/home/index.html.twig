@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Accueil{% endblock %}
+{% block title %}{{ 'Home'|trans }}{% endblock %}
 
 {% block body %}
 
@@ -8,7 +8,17 @@
 
         {% include "home/_jumbotron.html.twig" %}
 
-        {% include "home/_download_manifesto_area.html.twig" %}
+        <div class="mb-5">
+
+            {% include "home/_download_manifesto_area.html.twig" %}
+            
+        </div>
+
+        <div class="mb-4">
+
+            {% include "home/_join_us_area.html.twig" %}
+
+        </div>
 
     </div>
 

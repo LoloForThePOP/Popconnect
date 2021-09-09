@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% form_theme form 'bootstrap_5_layout.html.twig' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block body %}
+
+    <div class="container px-0">
+
+        <h3 class="text-success fw-bold mb-4">Contact Us</h3>
+
+        <p class="h5 mb-4">
+            Pour toute question, problème, ou remarque, utilisez le formulaire ci-dessous. Nous vous recontacterons dans les plus brefs délais.
+        </p>
+
+        <div class="contact-form row mb-4 ">
+
+            {{form_start(form)}}
+
+            <div class="mb-4">
+
+                {{form_row(form.authorEmail)}}
+
+            </div>
+
+            <div class="">
+
+                {{form_row(form.content)}}
+
+            </div>
+
+        </div>
+
+        <!-- Actions Buttons -->
+
+        <div class="">
+
+            <button type="submit" value="" class="btn btn-success fw-bold me-2 mb-2">
+                <span class="">Send</span> 
+            </button>
+
+            <a href="{{path('homepage')}}">
+                <button type="button" value="" class="btn btn-info fw-bold mb-2">
+                    <span class="">Cancel</span> 
+                </button>
+            </a>
+            
+        </div>
+        
+        {{form_end(form)}}
+
+    </div>
+
+
+    <style>
+
+        .contact-form label{
+            font-size: 1.1em;
+            color:rgb(26, 26, 56);
+        }
+
+    </style>
+
+{% endblock %}

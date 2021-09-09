@@ -6,37 +6,65 @@
     
         <div class="container justify-content-start p-0">
 
-            {# Website Logo #}
-    
-            <a class="navbar-brand" href="/">
+            <!-- Website Brand -->
+
+
+                {# Website Logo #}
         
-                <img src="{{asset ('misc/project-of-projects-logo.png', 'static_images')}}" alt="website logo" loading="lazy" width="80px" height="80px" style="width:100%;" />
-        
-            </a>
+                <a class="navbar-brand" href="/">
+            
+                    <img src="{{asset ('misc/project-of-projects-logo.png', 'static_images')}}" alt="website logo" loading="lazy" width="80px" height="80px" style="width:100%;" />
+            
+                </a>
 
-            <div class="site-info-wrap">
+                <div class="site-info-wrap">
 
-                <p class="site-title">
+                    <a href="/" style="text-decoration: none;">
 
-                    Project of Projects
+                        <p class="site-title">
+
+                            {{ 'Project of Projects'|trans }}
+                            
+                        </p>
+
+                        <p class="site-description">{{ 'Present Projects at Large Scale'|trans }}</p>                
                     
-                </p>
+                    </a>
 
-                <p class="site-description">Present Projects at Large Scale</p>
 
-            </div>
-    
+                </div>
+
+            
             {# Static Menu #}
     
-            <ul class="navbar-nav fw-bold">
+            <ul class="navbar-nav fw-bold ms-auto">
         
-                <li class="nav-item fs-5 me-3 d-none d-md-inline">
+                <!--<li class="nav-item fs-5 me-3 d-none d-md-inline">
         
-                    <a class="nav-link text-white" aria-current="page" href="/">Accueil</a>
+                    <a class="nav-link text-white" aria-current="page" href="/">Home</a>
         
+                </li> -->
+
+                <!-- Locale Switcher -->
+
+                <li class="nav-item dropdown text-body">
+
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-language" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ app.request.locale|locale_name(app.request.locale)|u.title  }}
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-language">
+
+                        <a class="dropdown-item" href="{{ path('homepage', {_locale: 'en'}) }}">English</a>
+
+                        <a class="dropdown-item" href="{{ path('homepage', {_locale: 'fr'}) }}">Français</a>
+
+                    </div>
+
                 </li>
-    
+
             </ul>
+
     
         </div>
   
