@@ -1,0 +1,39 @@
+
+.static-content h1{
+
+    margin-bottom: 20px;
+    
+}
+
+.static-content h2{
+
+    color: navy;
+
+    margin-bottom: 26px;
+    
+}
+
+.static-content h3, .static-content h4{
+
+    margin-bottom: 18px;
+    
+}
+
+
+.static-content section{
+
+    margin-bottom: 36px;
+
+}
+
+.static-content ul li{
+
+    margin-bottom: 16px;
+
+}
+
+.static-content p, .static-content li{
+
+    font-size: 1.1em;
+
+}

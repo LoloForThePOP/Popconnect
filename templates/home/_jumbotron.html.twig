@@ -9,17 +9,22 @@
     {% block text %}
 
         <p class="lead">
-            The Project of Projects is an initiative to create a <b>« Wikipedia of Humanity's Projects »</b>.{{ 'Presor'|trans }}
+
+            {% trans %}
+            The Project of Projects is an initiative to create a <b>« Wikipedia of Humanity's Projects »</b>.{% endtrans %}
         </p>
 
         <p class="lead">
-            To know more, read <b>« The Project of Projects Manifesto »</b>.
+
+            {% trans %}
+            To find out more, consult the <b>« Project of Projects Manifesto »</b>.{% endtrans %}
         </p>
 
         <p class="lead">
-            zrelkjze rlkzje rlkzjer lzekjr zjer
-        </p>
 
+            {% trans %}
+            <b>The Project of Projects needs your help</b>. If you'd like to contribute, please{% endtrans %} <a href="{{path ('contact_website') }}">{{ 'contact us' | trans }}</a>.
+        </p>
     
     {% endblock %}
 

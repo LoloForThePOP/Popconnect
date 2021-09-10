@@ -8,15 +8,27 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class StaticController extends AbstractController
 {
+
     /**
-     * @Route("/static/{page_name}", name="static")
+     * 
+     * Default route no locale
+     * 
+     * @Route("/static/{page_name}/")
+     */
+    public function indexNoLocale(): Response
+    {
+        return $this->redirectToRoute('static', ['_locale' => 'en']);
+    }
+
+
+
+    /**
+     * @Route("/static/{_locale<%app.supported_locales%>}/{page_name}", name="static")
      */
     public function route($page_name): Response
     {
 
-        return $this->render('static/'.$page_name.'.html.twig', [
-            'title' => $page_name,
-        ]);
+        return $this->render('static/'.$page_name.'.html.twig', []);
 
     }
 }

@@ -10,7 +10,7 @@
 
                 {# Website Logo #}
         
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="{{ path('homepage') }}">
             
                     <img src="{{asset ('misc/project-of-projects-logo.png', 'static_images')}}" alt="website logo" loading="lazy" width="80px" height="80px" style="width:100%;" />
             
@@ -18,7 +18,7 @@
 
                 <div class="site-info-wrap">
 
-                    <a href="/" style="text-decoration: none;">
+                    <a href="{{ path('homepage') }}" style="text-decoration: none;">
 
                         <p class="site-title">
 

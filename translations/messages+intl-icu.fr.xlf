@@ -29,33 +29,9 @@
         <source>Credits</source>
         <target>Crédits</target>
       </trans-unit>
-      <trans-unit id="fBjWNGf" resname="lool">
-        <source>lool</source>
-        <target>__lool</target>
-      </trans-unit>
-      <trans-unit id="nE0JwW_" resname="Pres">
-        <source>Pres</source>
-        <target>__Pres</target>
-      </trans-unit>
-      <trans-unit id="MTTBS9j" resname="Presor">
-        <source>Presor</source>
-        <target>__Presor</target>
-      </trans-unit>
-      <trans-unit id="A3tDEJL" resname="Presorol">
-        <source>Presorol</source>
-        <target>__Presorol</target>
-      </trans-unit>
-      <trans-unit id="ZhPG3FR" resname="Presori">
-        <source>Presori</source>
-        <target>__Presori</target>
-      </trans-unit>
       <trans-unit id="xxhnLBd" resname="We need your help. Join Us.">
         <source>We need your help. Join Us.</source>
-        <target>__We need your help. Join Us.</target>
-      </trans-unit>
-      <trans-unit id="AczPAMh" resname="fck">
-        <source>fck</source>
-        <target>__fck</target>
+        <target>.</target>
       </trans-unit>
       <trans-unit id="UqVsc8Z" resname="PDF Version">
         <source>PDF Version</source>
@@ -92,6 +68,22 @@
       <trans-unit id="GXZu1sy" resname="Cancel">
         <source>Cancel</source>
         <target>Annuler</target>
+      </trans-unit>
+      <trans-unit id="Od02DFj" resname="The Project of Projects is an initiative to create a &lt;b&gt;« Wikipedia of Humanity's Projects »&lt;/b&gt;.">
+        <source>The Project of Projects is an initiative to create a &lt;b&gt;« Wikipedia of Humanity's Projects »&lt;/b&gt;.</source>
+        <target><![CDATA[Le Projet des Projets est une initiative pour créer un <b>« Wikipedia des Projets de l'Humanité »</b>.]]></target>
+      </trans-unit>
+      <trans-unit id="mksQH0F" resname="To find out more, consult the &lt;b&gt;« Project of Projects Manifesto »&lt;/b&gt;.">
+        <source>To find out more, consult the &lt;b&gt;« Project of Projects Manifesto »&lt;/b&gt;.</source>
+        <target><![CDATA[__To find out more, consult the <b>« Project of Projects Manifesto »</b>.]]></target>
+      </trans-unit>
+      <trans-unit id="Lewr1o3" resname="The Project of Projects needs your help. If you'd like to contribute, please contact us.">
+        <source>The Project of Projects needs your help. If you'd like to contribute, please contact us.</source>
+        <target>Le Projet des Projets a besoin de vous pour être réaliser. Pour participer, utilisez le formulaire de contact</target>
+      </trans-unit>
+      <trans-unit id="vjeaMPG" resname="credits">
+        <source>credits</source>
+        <target>Crédits</target>
       </trans-unit>
     </body>
   </file>
