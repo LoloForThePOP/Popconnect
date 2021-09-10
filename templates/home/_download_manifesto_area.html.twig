@@ -37,15 +37,19 @@
 
 {% endmacro %}
 
-<div class="download-manifesto-area">
+<div id="download-manifesto-area" class="download-manifesto-area">
 
-    <p class="lead download-manifesto-tagline">
+    <p class="lead mb-2">
         
-        For more information, <b>consult the Project of Projects manifesto</b>.
-        
-        <br>Choose your prefered format :
+        <b>{{ 'The Project of Projects manifesto' | trans }}</b>.
 
     </p>
+
+    <p class="lead">
+        {{ 'Choose your prefered format' | trans }} :
+    </p>
+
+    <br>
 
     <div class="download-items-container">
 
@@ -64,18 +68,13 @@
         padding: 10px;
     }
 
-    .download-manifesto-tagline{
-
-        margin-bottom: 32px;
-    }
-
     .download-items-container{
         display: flex;
     }
 
     .item-container{
         display: inline-block;
-        width: 110px;
+        width: 120px;
         font-weight: bold;
         color: black;
         margin-right: 20px;

@@ -1,6 +1,6 @@
 <div class="container footer-container">
 
-    <div class="footer-section-1">
+    <div class="footer-section">
 
         <p>Copyright © 2021 <a href="https://projectofprojects.com/" title="Projet des Projets">{{ 'Project of Projects'|trans }}</a>.</p>
 
@@ -8,7 +8,7 @@
 
     </div>
 
-    <div class="footer-section-2">
+    <div class="footer-section">
 
         <p><a href="{{path ('contact_website') }}">{{ 'Contact Us'|trans }}</a></p>
 
@@ -32,4 +32,29 @@
         text-decoration: none;
         
     }
+
+    .footer-section p:last-child{
+        margin-bottom: 0;
+
+    }
+
+    @media screen and (max-width: 580px) {
+
+        .footer-container{
+            display: block;
+            padding: 15px 0px 10px;
+            font-size: 1em;
+            
+        }
+
+        .footer-section{
+            text-align: center;
+        }
+
+
+
+    }
+
+
+
 </style>

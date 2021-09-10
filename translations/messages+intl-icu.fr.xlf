@@ -75,15 +75,67 @@
       </trans-unit>
       <trans-unit id="mksQH0F" resname="To find out more, consult the &lt;b&gt;« Project of Projects Manifesto »&lt;/b&gt;.">
         <source>To find out more, consult the &lt;b&gt;« Project of Projects Manifesto »&lt;/b&gt;.</source>
-        <target><![CDATA[__To find out more, consult the <b>« Project of Projects Manifesto »</b>.]]></target>
+        <target><![CDATA[Pour en savoir plus, consultez le <b>« Manifeste du Projet des Projets »</b>.]]></target>
       </trans-unit>
       <trans-unit id="Lewr1o3" resname="The Project of Projects needs your help. If you'd like to contribute, please contact us.">
         <source>The Project of Projects needs your help. If you'd like to contribute, please contact us.</source>
-        <target>Le Projet des Projets a besoin de vous pour être réaliser. Pour participer, utilisez le formulaire de contact</target>
+        <target>Le Projet des Projets a besoin de vous pour être réalisé. Pour participer, utilisez le formulaire de contact.</target>
       </trans-unit>
       <trans-unit id="vjeaMPG" resname="credits">
         <source>credits</source>
         <target>Crédits</target>
+      </trans-unit>
+      <trans-unit id="otrf1z." resname="How to Participate">
+        <source>How to Participate</source>
+        <target>Comment participer :</target>
+      </trans-unit>
+      <trans-unit id="PVkZx0_" resname="&lt;b&gt;The Project of Projects needs your help&lt;/b&gt;. If you'd like to contribute, please">
+        <source>&lt;b&gt;The Project of Projects needs your help&lt;/b&gt;. If you'd like to contribute, please</source>
+        <target><![CDATA[<b>Le Projet des Projets a besoin de vous</b>. Si vous souhaitez participer]]></target>
+      </trans-unit>
+      <trans-unit id="S9GeOjE" resname="contact us">
+        <source>contact us</source>
+        <target>contactez-nous</target>
+      </trans-unit>
+      <trans-unit id="47DEQpj" resname="">
+        <source></source>
+        <target>__</target>
+      </trans-unit>
+      <trans-unit id="vn4vIBK" resname="Images">
+        <source>Images</source>
+        <target>Images</target>
+      </trans-unit>
+      <trans-unit id="njOR6b8" resname="Homepage">
+        <source>Homepage</source>
+        <target>Page d'accueil</target>
+      </trans-unit>
+      <trans-unit id="IoQPMSY" resname="Global Network Map">
+        <source>Global Network Map</source>
+        <target>Carte d’un monde en réseau</target>
+      </trans-unit>
+      <trans-unit id="d4j9C6d" resname="EPUB Icon">
+        <source>EPUB Icon</source>
+        <target>Icône fichier EPUB</target>
+      </trans-unit>
+      <trans-unit id=".WEU7uT" resname="PDF Icon">
+        <source>PDF Icon</source>
+        <target>Icône fichier PDF</target>
+      </trans-unit>
+      <trans-unit id="GeD6IzC" resname="The Project of Projects manifesto">
+        <source>The Project of Projects manifesto</source>
+        <target>Le Manifeste du Projet des Projets</target>
+      </trans-unit>
+      <trans-unit id="Q3SOln0" resname="Choose your prefered format">
+        <source>Choose your prefered format</source>
+        <target>Choisir un format</target>
+      </trans-unit>
+      <trans-unit id="cn_ikKE" resname="Get in Touch">
+        <source>Get in Touch</source>
+        <target>Entrer en contact</target>
+      </trans-unit>
+      <trans-unit id="_B5mp7A" resname="To find out more, consult the &lt;a href=&quot;#download-manifesto-area&quot;&gt;&lt;b&gt;« Project of Projects Manifesto »&lt;/b&gt;&lt;/a&gt;.">
+        <source>To find out more, consult the &lt;a href="#download-manifesto-area"&gt;&lt;b&gt;« Project of Projects Manifesto »&lt;/b&gt;&lt;/a&gt;.</source>
+        <target><![CDATA[Pour en savoir plus, consultez le <a href="#download-manifesto-area"><b>« Manifeste du Projet des Projets »</b></a>.]]></target>
       </trans-unit>
     </body>
   </file>

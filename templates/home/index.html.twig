@@ -14,11 +14,24 @@
             
         </div>
 
-        <div class="mb-4">
+        <div class="row mb-3">
 
-            {% include "home/_join_us_area.html.twig" %}
+            <div class="col-md-6 mb-3">
+                
+                {% include "home/_join_us_area.html.twig" %}
+
+            </div>
+
+            <div class="col-md-6 d-flex align-items-center justify-content-center mb-3">
+
+                <button class="btn btn-success btn-lg fw-bold rounded-0 p-4" type="button">{{ 'Get in Touch' | trans }}</button>
+
+            </div>
+
+            
 
         </div>
+
 
     </div>
 
