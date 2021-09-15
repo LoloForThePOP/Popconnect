@@ -3,7 +3,10 @@
 namespace App\Controller;
 
 use App\Form\ContactWebsiteType;
+use Symfony\Component\Mime\Address;
+use Symfony\Bridge\Twig\Mime\TemplatedEmail;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -30,7 +33,7 @@ class ContactController extends AbstractController
      * 
      * @Route("/{_locale<%app.supported_locales%>}/contact-us/", name="contact_website")
      */
-    public function contactWebsite(Request $request): Response
+    public function contactWebsite(Request $request, MailerInterface $mailer): Response
     {
         
         $form = 
@@ -51,10 +54,27 @@ class ContactController extends AbstractController
         $form->handleRequest($request);
         
         if ($form->isSubmitted() && $form->isValid()) {
+
+            $sender = $form->get('authorEmail')->getData();
+
+            $email = (new TemplatedEmail())
+                ->from($sender)
+                ->to(new Address('contact@projectofprojects.com'))
+                ->subject('New message from the POP connection')
+
+                // path of the Twig template to render
+                ->htmlTemplate('contact/display_user_email_template.html.twig')
+
+                // pass variables (name => value) to the template
+                ->context([
+                    'emailContent' => $form->get('content')->getData(),
+                ]);
+
+            $mailer->send($email);
             
             $this->addFlash(
                 'success',
-                "✅ Votre Message a été envoyé"
+                "✅ Your message has been sent. See you."
             );
 
             return $this->redirectToRoute('homepage', []);
