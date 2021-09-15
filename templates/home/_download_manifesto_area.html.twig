@@ -37,40 +37,29 @@
 
 {% endmacro %}
 
-<div id="download-manifesto-area" class="download-manifesto-area">
 
-    <p class="lead mb-2">
+    <h3 class="text-center mb-2">
         
-        <b>{{ 'The Project of Projects manifesto' | trans }}</b>.
+        <b>{{ 'thepop.manifesto' | trans }}</b>
 
+    </h3>
+
+    <p class="fs-3 text-center">
+        {{ 'choose.format' | trans }}
     </p>
 
-    <p class="lead">
-        {{ 'Choose your prefered format' | trans }} :
-    </p>
 
     <br>
 
-    <div class="download-items-container">
+    <div class="download-items-container d-flex justify-content-center">
 
-        {{ _self.item_container('pdf', 'PDF Version' |trans ) }}
-        {{ _self.item_container('epub', 'Ebook Version (EPUB)' |trans ) }}
+        {{ _self.item_container('pdf', 'pdf.format' |trans ) }}
+        {{ _self.item_container('epub', 'epub.format' |trans ) }}
 
     </div>
 
-</div>
 
 <style>
-
-    .download-manifesto-area{
-        border: 1px solid rgb(226, 194, 253);
-        border-radius: 5px;
-        padding: 10px;
-    }
-
-    .download-items-container{
-        display: flex;
-    }
 
     .item-container{
         display: inline-block;

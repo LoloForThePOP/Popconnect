@@ -8,7 +8,21 @@
         max-width: 942px;
     }
 
+
 }
+
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+
 
 /* Page Content Container */
 

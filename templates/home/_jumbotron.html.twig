@@ -10,20 +10,30 @@
 
         <p class="lead">
 
-            {% trans %}
-            The Project of Projects is an initiative to create a <b>« Wikipedia of Humanity's Projects »</b>.{% endtrans %}
+            {{ 'introduce.initiative' | trans }}
+            
+            <b>{{ 'wikipedia.analogy' | trans }}</b>.
+
         </p>
 
         <p class="lead">
 
-            {% trans %}
-            To find out more, consult the <b><a href="#download-manifesto-area">Project of Projects Manifesto</a></b>.{% endtrans %}
+            {{ 'learn.more.suggestion' | trans }}
+
+             <b><a href="#download-manifesto-area">
+
+                {{ 'pop.manifesto' | trans }}</a></b>.
+
         </p>
 
         <p class="lead">
 
-            {% trans %}
-            <b>The Project of Projects needs your help</b>. If you'd like to contribute, please{% endtrans %} <a href="{{path ('contact_website') }}">{{ 'contact us' | trans }}</a>.
+            <b>{{ 'pop.need.help' | trans }}</b>.
+            {{ 'ask.contributions' | trans }}
+            
+            <a href="{{path ('contact_website') }}">
+                {{ 'contact.us' | trans | lower }}</a>.
+
         </p>
     
     {% endblock %}
