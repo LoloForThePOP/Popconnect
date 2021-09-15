@@ -145,14 +145,7 @@
         <source>pop.description</source>
         <target>Present Projects at Large Scale</target>
       </trans-unit>
-      <trans-unit id="Your Email Address" resname="Your Email Address">
-        <source>Your Email Address</source>
-        <target>Votre adresse e-mail</target>
-      </trans-unit>
-      <trans-unit id="Your Message" resname="Your Message">
-        <source>Your Message</source>
-        <target>Votre message</target>
-      </trans-unit>
+
     </body>
   </file>
 </xliff>

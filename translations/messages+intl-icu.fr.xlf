@@ -145,6 +145,18 @@
         <source>PDF Icon</source>
         <target>Icône PDF</target>
       </trans-unit>
+            <trans-unit id="Your Email Address" resname="Your Email Address">
+        <source>Your Email Address</source>
+        <target>Votre adresse e-mail</target>
+      </trans-unit>
+      <trans-unit id="Your Message" resname="Your Message">
+        <source>Your Message</source>
+        <target>Votre message</target>
+      </trans-unit>
+      <trans-unit id="Type Here" resname="Type Here">
+        <source>Type Here</source>
+        <target>Écrire ici</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
