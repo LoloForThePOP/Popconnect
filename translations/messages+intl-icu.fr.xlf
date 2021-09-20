@@ -27,7 +27,7 @@
       </trans-unit>
       <trans-unit id="POmwQ21" resname="contact.form.suggestion">
         <source>contact.form.suggestion</source>
-        <target>Ou utilisez ce formulaire de contact ci-dessous :</target>
+        <target>Ou utilisez le formulaire de contact ci-dessous :</target>
       </trans-unit>
       <trans-unit id="J84dG.Q" resname="send">
         <source>send</source>

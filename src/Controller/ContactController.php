@@ -60,7 +60,7 @@ class ContactController extends AbstractController
             $email = (new TemplatedEmail())
                 ->from($sender)
                 ->to(new Address('contact@projectofprojects.com'))
-                ->subject('New message from the POP connection')
+                ->subject('New Message from The POP Connection')
 
                 // path of the Twig template to render
                 ->htmlTemplate('contact/display_user_email_template.html.twig')
