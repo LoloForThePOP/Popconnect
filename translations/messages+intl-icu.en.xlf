@@ -31,7 +31,7 @@
       </trans-unit>
       <trans-unit id="ZKuytNs" resname="contact.us">
         <source>contact.us</source>
-        <target>Contact Us</target>
+        <target>Contact us</target>
       </trans-unit>
       <trans-unit id="Pw7bNtb" resname="thepop.manifesto">
         <source>thepop.manifesto</source>
@@ -79,7 +79,7 @@
       </trans-unit>
       <trans-unit id="kOeF6wb" resname="bring.ideas">
         <source>bring.ideas</source>
-        <target>Bring your ideas, critics, and comments;</target>
+        <target>Give us your ideas, critics, and comments;</target>
       </trans-unit>
       <trans-unit id="CY2NTi5" resname="share.manifesto">
         <source>share.manifesto</source>
@@ -99,7 +99,7 @@
       </trans-unit>
       <trans-unit id="g7YPlHn" resname="code.platform">
         <source>code.platform</source>
-        <target>Contribute to the code of the Project of Project forthcoming website;</target>
+        <target>Code the "Wikipedia of Projects" platform;</target>
       </trans-unit>
       <trans-unit id="vjeaMPG" resname="credits">
         <source>credits</source>

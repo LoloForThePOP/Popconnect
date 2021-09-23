@@ -39,7 +39,7 @@
       </trans-unit>
       <trans-unit id="Pw7bNtb" resname="thepop.manifesto">
         <source>thepop.manifesto</source>
-        <target>Le Manifeste du Projet des Projets</target>
+        <target>Manifeste du Projet des Projets</target>
       </trans-unit>
       <trans-unit id="reLRULm" resname="choose.format">
         <source>choose.format</source>
@@ -103,7 +103,7 @@
       </trans-unit>
       <trans-unit id="g7YPlHn" resname="code.platform">
         <source>code.platform</source>
-        <target>Contribuer au code source du futur site web du Projet des Projets.</target>
+        <target>Coder le "Wikipedia des Projets".</target>
       </trans-unit>
       <trans-unit id="3nD6YMr" resname="pop">
         <source>pop</source>

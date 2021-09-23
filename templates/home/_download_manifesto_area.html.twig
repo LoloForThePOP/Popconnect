@@ -44,9 +44,11 @@
 
     </h3>
 
+    {# 
+
     <p class="fs-3 text-center">
         {{ 'choose.format' | trans }}
-    </p>
+    </p> #}
 
 
     <br>
@@ -54,7 +56,7 @@
     <div class="download-items-container d-flex justify-content-center">
 
         {{ _self.item_container('pdf', 'pdf.format' |trans ) }}
-        {{ _self.item_container('epub', 'epub.format' |trans ) }}
+       {#  {{ _self.item_container('epub', 'epub.format' |trans ) }} #}
 
     </div>
 

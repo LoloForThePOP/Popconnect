@@ -2,13 +2,22 @@
 
     <a href="{{path ('contact_website') }}">
 
-        <button class="btn btn-contact btn-lg fw-bold rounded-0 p-4" type="button">{{ 'contact.us' | trans }}</button>
+        <div class="contact-us-button" style="border: 1px solid rgb(226, 194, 253); border-radius: 5px; padding: 35px">
+
+            <button class="btn btn-contact btn-lg fw-bold rounded-1 p-4" type="button">{{ 'contact.us' | trans }}</button>   
+
+        </div>
+
 
     </a>
 
 </div>
 
 <style>
+
+    .contact-us-button:hover{
+        background-color: #f9fff1;
+    }
     
     .btn-contact{
         background-color: rgb(238, 234, 255);
