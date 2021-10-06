@@ -45,7 +45,7 @@ class ContactController extends AbstractController
 
                     // Time protection
                     'antispam_time'     => true,
-                    'antispam_time_min' => 4,
+                    'antispam_time_min' => 10,
                     'antispam_time_max' => 3600,
                 )
             );
