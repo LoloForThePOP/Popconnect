@@ -35,4 +35,12 @@ class Kernel extends BaseKernel
             $routes->import('../config/{routes}.php');
         }
     }
+
+
+    public function getCacheDir()
+    {
+        return '/tmp/superduper_cache/'.$this->environment;
+    }
+
+
 }
